@@ -108,20 +108,9 @@
 ||honcode.ch^
 ||bit.adguard.com^
 ||api-mobi.soundcloud.com^
-||intranet^
-||internal^
-||private^
-||corp^
-||home^
 ||stats.gc.apple.com^
 ||stats.gc.fe.apple-dns.net^
-.1.1.1.l80.js^
-.n.2.1.js^
-.n.2.1.l50.js^
-.n.2.1.l60.js^
 ||mo.vlpyj.xy^
-.3.n.2.1.l50.js
-.3.n.2.2.l30.js
 ||d1stxfv94hrhia.cloudfront^
 ||aab-proxy.tld^
 ||rrf.fat1domain1^
@@ -173,7 +162,6 @@
 ||deploy.propellerads.comm^
 ||pls.marketo.comm^
 ||click.aliexpress.com^
-||msedge.net^
 ||ozone.ru^
 ||img1.blogblog.com^
 ||*onicon*
@@ -201,9 +189,8 @@
 ||redirectingat.com^
 ||netlify.com^
 ||found.ee^
-||history.google.com^
 ||monitor.azure.com^
-||r.stripe.com^
+||stripe.com^
 ||v10.events.data.microsoft.com^
 ||v20.events.data.microsoft.com^
 ||v10.vortex-win.data.microsoft.com^
@@ -214,7 +201,6 @@
 ||*intercom*
 ||speeddials.opera.com^
 ||zombo.com^
-||webmd.com^
 ||img.transcoder.opera.com^
 ||thumbnails.opera.com^
 ||purch.com^
@@ -1519,8 +1505,6 @@
 ||bidswitch.net^
 ||bttrack.com^
 ||bildstatic.de^
-||bing.com^
-||msn.com^
 ||bizrate.com^
 ||imshopping.com^
 ||bluecava.com^
@@ -2087,7 +2071,6 @@
 ||bannerflow.com^
 ||nmcdn.us^
 ||mktoresp.com^
-||bing.com^
 ||marketo.net^
 ||effectivemeasure.net^
 ||civicscience-widgets.s3.amazonaws.com^
@@ -2530,7 +2513,6 @@
 ||bidswitch.net^
 ||bidtheatre.com^
 ||bidvol.com^
-||bing.com^
 ||bitmovin.com^
 ||bitrix.info^
 ||bizible.com^
@@ -2726,7 +2708,6 @@
 ||go-mpulse.net^
 ||google.com/adsense^
 ||google.com/pagead^
-||google.nl^
 ||googleadservices.com^
 ||googleanalytics.com^
 ||google-analytics.com^
@@ -2756,7 +2737,6 @@
 ||iesnare.com^
 ||igaw.io^
 ||igodigital.com^
-||iheart.com^
 ||im-apps.net^
 ||imasdk.googleapis.com^
 ||impact.com^
@@ -4040,7 +4020,6 @@
 ||aistat.net^
 ||aivalabs.com^
 ||ajouter.net^
-||akamai.com^
 ||akamai-access.com^
 ||akanoo.com^
 ||akavita.com^
@@ -4075,7 +4054,6 @@
 ||amadesa.com^
 ||amavalet.com^
 ||amazingcounters.com^
-||amazon.co.uk^
 ||amazon-adsystem.com^
 ||ambercrow.com^
 ||amgdgt.com^
@@ -4466,7 +4444,6 @@
 ||bigtracker.com^
 ||billboard.cz^
 ||bimlocal.com^
-||bing.com^
 ||binlayer.com^
 ||bionicclick.com^
 ||bitads.net^
@@ -5476,6 +5453,7 @@
 ||emarketingsolutions.es^
 ||embeddedanalytics.com^
 ||embedly.com^
+||embed.ly
 ||emediate.*^
 ||emediatrack.com^
 ||emerse.com^
@@ -5592,7 +5570,6 @@
 ||everestjs.net^
 ||everesttech.net^
 ||evergage.com^
-||everydayhealth.com^
 ||evidencecleanergold.com^
 ||evidon.com^
 ||eviltracker.net^
@@ -5965,7 +5942,6 @@
 ||glanceguide.com^
 ||glassboxcdn.com^
 ||glassboxdigital.io^
-||glassdoor.com^
 ||glbtracker.com^
 ||gleam.io^
 ||global-e.com^
@@ -6282,7 +6258,6 @@
 ||ignition.ai^
 ||ignitionone.*^
 ||igodigital.com^
-||iheart.com^
 ||ihsmarkit.com^
 ||iivt.com^
 ||ilbanner.com^
@@ -7327,8 +7302,6 @@
 ||navilytics.com^
 ||navrcholu.cz^
 ||naytev.com^
-||nbcnews.com^
-||nbcsports.com^
 ||nbjmp.com^
 ||nc0.*^
 ||ncaudienceexchange.com^
@@ -7537,7 +7510,7 @@
 ||onet.pl^
 ||onetag.*^
 ||onetag-sys.com^
-||onetrust.com^$ping,third-party
+||onetrust.com^
 ||oneupweb.com^
 ||onevision.com.tw^
 ||onewaylinkexchange.net^
@@ -7698,7 +7671,7 @@
 ||pclicks.com^
 ||pcspeedup.com^
 ||pdbu.net^
-||pdst.fm^$script,third-party
+||pdst.fm^
 ||pdvacde.com^
 ||peakadx.com^
 ||peakcounter.dk^
@@ -7745,7 +7718,6 @@
 ||pgpartner.com^
 ||pgs.io^
 ||pheedo.com^
-||philips.com^
 ||phizzle.com^
 ||phluant.com^
 ||phonalytics.com^
@@ -7770,7 +7742,6 @@
 ||pingil.com^
 ||pingomatic.com^
 ||pinpoll.com^
-||pinterest.com^
 ||pipfire.com^
 ||pippio.com^
 ||piratepx.com^
@@ -8068,7 +8039,6 @@
 ||quismatch.com^
 ||quitsnap-blue.com^
 ||quitzon.net^
-||quora.com^
 ||quple.io^
 ||qzlog.com^
 ||r7ls.net^
@@ -8339,7 +8309,6 @@
 ||rubiconproject.com^
 ||rudderlabs.com^
 ||rumanalytics.com^
-||rumble.com^
 ||rumiview.com^
 ||rumpelstiltskinhead.com^
 ||runads.com^
@@ -8545,7 +8514,6 @@
 ||showroomlogic.com^
 ||showup.tv^
 ||shrinktheweb.com^
-||shutterstock.com^
 ||sibautomation.com^
 ||siccash.com^
 ||sift.com^
@@ -8654,9 +8622,7 @@
 ||smrtlnks.com^
 ||smtad.net^
 ||smtrk.net^
-||snap.com^
 ||snapads.com^
-||snapchat.com^
 ||snapdeal.biz^
 ||snapgiant.com^
 ||sni-dat.com^
@@ -8704,7 +8670,6 @@
 ||sophus3.co.uk^
 ||sortable.com^
 ||soska.us^
-||soundcloud.com^
 ||sourceknowledge.com^
 ||sovrn.com^
 ||spacash.com^
@@ -8985,7 +8950,6 @@
 ||taptica.com^
 ||targ.ad^
 ||targad.de^
-||target.com^
 ||targetfuel.com^
 ||targetingmarketplace.com^
 ||targetingnow.com^
@@ -9043,7 +9007,7 @@
 ||textads.biz^
 ||text-link-ads.com^
 ||textlinks.com^
-||tf1.fr^,domain=~tf1info.fr
+||tf1.fr^
 ||tfag.de^
 ||tfosrv.com^
 ||tgdaudience.com^
@@ -9615,10 +9579,9 @@
 ||waudit.cz^
 ||waust.at^
 ||way2traffic.com^
-||wayfair.com^
 ||wbdx.fr^
 ||wbtrk.net^
-||wc4.net^$image,third-party
+||wc4.net^
 ||wcfbc.net^
 ||wda.com^
 ||wdfl.*^
@@ -9735,7 +9698,6 @@
 ||wiredminds.com^
 ||wirewuss.com^
 ||wisetrack.net^
-||wish.com^
 ||wishabi.com^
 ||wishloop.com^
 ||wisokykulas.bid^
@@ -9909,7 +9871,6 @@
 ||z444o.com^
 ||z5x.com^
 ||zaehler.tv^
-||zaful.com^
 ||zaius.com^
 ||zalo.me^
 ||zango.com^
