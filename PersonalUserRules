@@ -1,5 +1,6 @@
 ! Title: Sefone's Personal AdGuard User rules
 
+@@/ads.scss$badfilter
 @@||qualtrics.com^$1p$badfilter
 @@||3dmgame.com^$1p$badfilter
 @@||3dmgame.com^$third-party,image,badfilter
