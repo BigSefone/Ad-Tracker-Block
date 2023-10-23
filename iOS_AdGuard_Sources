@@ -1,0 +1,44 @@
+AdGuard Sources
+
+Safari Filters:
+https://malware-filter.gitlab.io/malware-filter/tracking-filter.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt
+https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt
+https://raw.githubusercontent.com/igorskyflyer/ad-void/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ExtremelyCondensedList.txt
+https://www.dl.dropboxusercontent.com/s/v1hdmolkekzevhl/Wildcards.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-wildcard-rules.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/lan-block.txt
+https://raw.githubusercontent.com/gwarser/filter-lists/master/lan-block.txt
+https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt
+
+User rules:
+https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/PersonalUserRules
+
+Allowlist:
+accounts.google.com
+
+Network Filters:
+https://raw.githubusercontent.com/JuanRodenas/Pihole_list/main/Listas/blocklist.txt
+https://raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt
+HaGeZi's Combined DNS Blocklist
+https://raw.githubusercontent.com/marcusminus/Orthrus-BlockList/master/blocklist.txt
+https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/blocklist
+https://raw.githubusercontent.com/blocklistproject/Lists/master/basic.txt
+
+Blocklist:
+https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/RegexExperimental
+https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/RegexFilter
+
+Allowlist:
+easylist-downloads.adblockplus.org
+filters.adtidy.org
+static.ess.apple.com
+forum.adguard.com
+www.redditstatic.com
+accounts.youtube.com
+www.gstatic.com
+accounts.google.com
+fonts.googleapis.com
+fonts.gstatic.com
+yt3.googleusercontent.com
