@@ -1,5 +1,5 @@
 ! Title: HaGeZi's Personal AdGuard Rules (Modified)
-! Updated: Nov 4
+! Last modified: 04 Nov 2023
 ! Syntax: AdGuard
 
 ! *** Ads ***
