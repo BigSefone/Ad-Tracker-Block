@@ -1,8 +1,6 @@
 [Adblock Plus 2.0]
-! Title: 🔒 Privacy Essentials
+! Title: 🔒 Privacy Essentials (Modified)
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 1 day (update frequency)
 ! Version: 3 November 2023
 ! Syntax: AdBlock
 
@@ -325,40 +323,6 @@ $ping
 ||addsearch.com^$3p
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
-!!! https://github.com/uBlockOrigin/uAssets/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
-! ||tags.tiqcdn.com^
-
-! GENERAL ALLOWLIST
-! https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
-@@*/lwa/WebPages/LwaClient.aspx$subdocument
-@@*/saml/$subdocument
-@@/clarity-*.js$1p,script
-@@/share-link-$1p,xhr
-@@||a-msedge.net^$domain=bing.com
-@@||advertising.com^$1p
-@@||alexa.com^$1p
-@@||amzn.to^$1p
-@@||assets-jpcust.jwpsrv.com^$image
-@@||bing.com/maps^
-@@||bing.com/api/maps^
-@@||r.bing.com/rp^
-@@||th.bing.com^
-@@||cbsi.com/dist/optanon.js$script
-@@||cdn-apple.com^$domain=apple.com|icloud.com
-@@||consent.cookiebot.com^$script,domain=adjust.com
-@@||contextual.media.net^$script
-@@||dropboxstatic.com/*/social_icon$stylesheet,domain=dropbox.com
-@@||e.infogram.com/js/dist/embed.js$script
-@@||e.infogram.com^$subdocument
-@@||gravatar.com^$image,stylesheet
-@@||omara.cdn-cnj.si^$script
-@@||paypal.com^$subdocument,popup
-@@||play.vidyard.com^$subdocument,script
-@@||pov.spectrum.net^
-@@||udimg.com^$1p
-@@||udimg.com^$domain=urbandictionary.com
-! https://github.com/yokoffing/filterlists/issues/98
-@@||use.typekit.net^$script,font
 
 ! GOOGLE
 ||accounts.google.com^$3p,domain=~youtube.com
@@ -383,30 +347,6 @@ fmovies.*##+js(nosiif, try)
 ||scholar.google.com^$3p,domain=~google.com
 ||youtube.com/error_204?^$xhr
 ||youtube.com/youtubei/v1/log_event^$xhr
-@@||accounts.google.*/ServiceLogin$subdocument
-@@||apis.google.com^$script,domain=content.googleapis.com|dropbox.com
-@@||appspot.com^$subdocument,domain=cloud.google.com
-@@||blogger.*.google.com^$domain=blogspot.com
-@@||blogger.*.google.com^$subdocument
-@@||blogger.com/comment-iframe.$subdocument
-@@||consent.google.com^$subdocument
-@@||docs.google.com^$subdocument,domain=dropbox.com
-@@||drive.google.com^$image
-@@||google-analytics.com/analytics.js$script,domain=amainhobbies.com
-@@||google.com/maps/$subdocument
-@@||google.com/recaptcha/$subdocument
-@@||google.com/recaptcha/api.js$script
-@@||google.com^$script,domain=youtube.com
-@@||google*.^$domain=youtube.com|youtube-nocookie.com
-@@||google.com/uds/*visualization$script,stylesheet
-@@||gstaticadssl.*.google.com^$font
-@@||maps-api-ssl.google.com^$script,image
-@@||maps.google.*/maps$script,image
-@@||maps.googleapis.com/maps$script,image,xhr
-@@||mapsengine.google.com/map/embed$subdocument
-@@||youtube-ui.*.google.com^$subdocument,script
-@@||ytimg.*.google.com^$image
-@@||ytimg.com^$script
 
 ! FACEBOOK
 ! Logins (maybe more)
@@ -414,21 +354,13 @@ fmovies.*##+js(nosiif, try)
 ||connect.facebook.com^$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ! Facebook Plugins (3rd-party embedded plugins)
 ||facebook.com/plugins/$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
-! ||fbcdn.net^$3p
-! @@||fbcdn.net^$3p,domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-! @@||fbcdn.net^$image,media
 
 ! INSTAGRAM
 ||graph.facebook.com/logging_client_events
 ||graph.facebook.com/?ids=*&callback=$script,3p
 ||graph.facebook.com/*/activities?access_token=&event=
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
-! ||graph.facebook.com^$domain=~facebook.com|~instagram.com
-! ||graph.instagram.com^$domain=~facebook.com|~instagram.com
 ||instagram.com^$3p,~subdocument
-@@||instagram.com/p/$subdocument
-@@||instagram.com^$script
-@@||-instagram.*.facebook.com^$subdocument
 
 ! TWITTER
 ||api.twitter.com^$3p,domain=~tweetdeck.com|~twitter.com|~twitter.jp
@@ -440,15 +372,6 @@ fmovies.*##+js(nosiif, try)
 platform.twitter.com##+js(cookie-remover, /^/)
 ! Attempt to use uBO to remove cookies caused by Twitter
 !#endif
-@@||platform.twitter.com/embed/$subdocument
-@@||platform.twitter.com/widgets/$subdocument
-@@||platform.twitter.com^$stylesheet,image,script
-@@||twimg.com^$image
-@@||twitter.com/i/videos/$subdocument
-@@||twitter.map.fastly.net^$domain=twitter.com
-! Breaks Twitter widget using Fanboy Annoyance
-! https://www.cnet.com/news/social-media/twitter-musk-news-timeline-riptwitter-trends-after-employees-resign/
-@@.twitterContainer
 
 ! TIKTOK
 !||tiktok.com^$3p
@@ -480,8 +403,6 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||klarnaservices.com^$3p
 ||preorder-now.herokuapp.com^$3p
 ||razorpay.com^$3p
-! Blocks Paypal and Express Checkouts using Shopify:
-! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
 ||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com
 ||shop.app^$3p
 ||shopbonsai.ca^$3p
@@ -492,8 +413,6 @@ platform.twitter.com##+js(cookie-remover, /^/)
 /GooglePayButton
 /FacebookPayButton
 /ShopPay
-!||stripe.com^$3p,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
-!||js.stripe.com^,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 
 ! 3p PAYMENT / LOGIN
 ##shopify-payment-terms
@@ -517,9 +436,6 @@ indeed.com##.icl-Card
 
 ! BING
 ||bing.com^$3p,domain=~bing.com|~login.live.com|~microsoft.com|~msn.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/126174
-||bing.com/fd/ls/lsp.aspx$badfilter
-@@||bing.com/fd/ls/GLinkPing.aspx?
 ! Bing reverse image search broken by EL
 bing.com#@#a[href*="/aclick?ld="]
 bing.com##.ins_exp.vsp
@@ -529,12 +445,6 @@ bing.com##:matches-path(~/shop) a[href*="/aclick?"]:not(.vsp_ads)
 !#if env_firefox
 bing.com##+js(nosiif, logQueue, 10000)
 !#endif
-! EP - needed for Bing rewards?
-@@||bing.com/rewardsapp/reportactivity?
-
-! Microsoft Outlook breakage
-@@||pipe.aria.microsoft.com^$domain=outlook.live.com|outlook.office.com
-@@||browser.events.data.microsoft.com^$domain=outlook.live.com|outlook.office.com
 
 ! from https://github.com/crssi/Firefox/blob/master/uBO-Cosmetic.txt
 ! EasyPrivacy
@@ -550,10 +460,6 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||dc.services.visualstudio.com/*/track$badfilter,domain=outlook.office.com
 ||dc.services.visualstudio.com/v2/track$badfilter,domain=outlook.office.com
 ||virtualearth.net/webservices/v*/loggingservice/loggingservice.svc/log?entry=$badfilter,domain=outlook.office.com
-
-! EasyPrivacy exceptions
-! https://github.com/easylist/easylist/issues/4023
-@@||instant.page^$3p
 
 ! from https://raw.githubusercontent.com/Yuki2718/adblock/master/medium_mode/anti-allowlist.txt
 ! EL
@@ -593,27 +499,15 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 
 ! https://github.com/easylist/easylist/issues/16298
 ||connatix.com/scripts^
-!||connatix.com/scripts/facebook-pixel-script.js
-!||connatix.com/scripts/gaconnector.js
-!||connatix.com/scripts/microsoft-ad-script.js
-!||connatix.com/scripts/munchkin-script.js
-!||connatix.com/scripts/hotjar.js
-!||connatix.com/scripts/websights-script.js
-!||connatix.com/scripts/mkt-cke-script.js
-!||connatix.com/scripts/linkedin-script.js
 
-! https://connatix.com/advertisers
 ||neverbounce.com^$3p
 ||greenhouse.io^$3p
 
 ! Outbrain
 ||outbrain.com^$3p,domain=~sphere.com
 
-! Allow YouTube link redirect (Privacy Extended)
-@@||youtube.com/redirect?event=*q=http$document
-
 ! https://github.com/LennyFox/Blocklists/blob/master/uBO_medium_mode_filter 7 June 2023
-! Removed redundancies from EasyListm, EasyPrivacy, and Privacy Extended
+! Removed redundancies from EasyList, EasyPrivacy, and Privacy Extended
 ||1rx.io^$3p
 ||2cnt.net^$3p
 ||313.nl^$3p
@@ -769,7 +663,7 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ||justpremium.com^$3p
 ||jwpltx.com^$3p
 ||klaviyo.com^$3p
-! ||launchdarkly.com^$3p
+||launchdarkly.com^$3p
 ||layer-ads.de^$3p
 ||listenloop.com^$3p
 ||livejasmin.com^$3p
@@ -945,6 +839,3 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ||zergnet.com^$3p
 ||zeronaught.com^$3p
 ||zg-api.com^$3p
-
-!#include antipaywall_filters_without_element_hiding.txt
-!#include click2load.txt
