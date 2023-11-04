@@ -436,8 +436,6 @@ indeed.com##.icl-Card
 
 ! BING
 ||bing.com^$3p,domain=~bing.com|~login.live.com|~microsoft.com|~msn.com
-! Bing reverse image search broken by EL
-bing.com#@#a[href*="/aclick?ld="]
 bing.com##.ins_exp.vsp
 ! https://github.com/uBlockOrigin/uAssets/issues/9093
 bing.com##:matches-path(~/shop) a[href*="/aclick?"]:not(.vsp_ads)
