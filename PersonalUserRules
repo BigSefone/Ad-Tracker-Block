@@ -1,5 +1,13 @@
 ! Title: Sefone's Personal AdGuard User rules
 
+@@||*.*$xmlhttprequest,domain=reddit.com
+@@||*^$xmlhttprequest,domain=reddit.com
+@@||*$xmlhttprequest,domain=reddit.com
+@@*$xmlhttprequest,domain=reddit.com
+@@||*.*$xmlhttprequest,domain=google.com
+@@||*^$xmlhttprequest,domain=google.com
+@@||*$xmlhttprequest,domain=google.com
+@@*$xmlhttprequest,domain=google.com
 @@||*.*$xmlhttprequest,domain=youtube.com
 @@||*^$xmlhttprequest,domain=youtube.com
 @@||*$xmlhttprequest,domain=youtube.com
