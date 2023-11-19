@@ -10,6 +10,16 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-wi
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/lan-block.txt
 https://raw.githubusercontent.com/gwarser/filter-lists/master/lan-block.txt
 https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt
+HaGeZi's Combined DNS Blocklist
+https://raw.githubusercontent.com/LennyFox/Blocklists/master/videos.txt
+https://malware-filter.gitlab.io/malware-filter/tracking-filter.txt
+https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/youtube_wo_tonikaku_filter.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/SocialShareList.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AdRemovalListForUnusualAds.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiFunctionalityRemovalList.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/EmptyPaddingRemover.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
+
 
 User rules:
 https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/PersonalUserRules
@@ -18,9 +28,9 @@ Allowlist:
 accounts.google.com
 
 Network Filters:
+https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/BaDomain_Modified.txt
 https://raw.githubusercontent.com/JuanRodenas/Pihole_list/main/Listas/blocklist.txt
 https://raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt
-HaGeZi's Combined DNS Blocklist
 https://raw.githubusercontent.com/marcusminus/Orthrus-BlockList/master/blocklist.txt
 https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/blocklist
 https://raw.githubusercontent.com/blocklistproject/Lists/master/basic.txt
@@ -30,7 +40,6 @@ https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/RegexExperimen
 https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/RegexFilter
 
 Allowlist:
-easylist-downloads.adblockplus.org
 filters.adtidy.org
 static.ess.apple.com
 forum.adguard.com
@@ -41,3 +50,8 @@ accounts.google.com
 fonts.googleapis.com
 fonts.gstatic.com
 yt3.googleusercontent.com
+encrypted-tbn0.gstatic.com
+encrypted-tbn1.gstatic.com
+encrypted-tbn2.gstatic.com
+encrypted-tbn3.gstatic.com
+mobile-api.adguard.org
