@@ -8,7 +8,6 @@ https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ExtremelyCondens
 https://www.dl.dropboxusercontent.com/s/v1hdmolkekzevhl/Wildcards.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal-wildcard-rules.txt
 https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt
-HaGeZi's Combined DNS Blocklist
 https://raw.githubusercontent.com/LennyFox/Blocklists/master/videos.txt
 https://malware-filter.gitlab.io/malware-filter/tracking-filter.txt
 https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/youtube_wo_tonikaku_filter.txt
@@ -31,7 +30,7 @@ kick.com
 Network Filters:
 https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/BaDomain_Modified.txt
 https://raw.githubusercontent.com/JuanRodenas/Pihole_list/main/Listas/blocklist.txt
-https://raw.githubusercontent.com/OsborneLabs/Columbia/master/Columbia.txt
+HaGeZi's Combined DNS Blocklist
 https://raw.githubusercontent.com/marcusminus/Orthrus-BlockList/master/blocklist.txt
 https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/blocklist
 https://raw.githubusercontent.com/blocklistproject/Lists/master/basic.txt
