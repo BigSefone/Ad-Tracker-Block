@@ -37,8 +37,7 @@ https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/blocklist
 https://raw.githubusercontent.com/blocklistproject/Lists/master/basic.txt
 
 Blocklist:
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/RegexExperimental
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/RegexFilter
+https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/CurrentRegexFilter
 
 Allowlist:
 filters.adtidy.org
