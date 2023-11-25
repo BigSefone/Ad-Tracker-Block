@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials (Modified)
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Version: 3 November 2023
+! Version: 25 November 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -323,6 +323,8 @@ $ping
 ||addsearch.com^$3p
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
+||paykickstart.com^$3p
+||pressplay.io^$3p
 
 ! GOOGLE
 ||accounts.google.com^$3p,domain=~youtube.com
@@ -356,6 +358,7 @@ fmovies.*##+js(nosiif, try)
 ||facebook.com/plugins/$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 
 ! INSTAGRAM
+||graph.facebook.com^$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||graph.facebook.com/logging_client_events
 ||graph.facebook.com/?ids=*&callback=$script,3p
 ||graph.facebook.com/*/activities?access_token=&event=
