@@ -2535,7 +2535,6 @@
 0.0.0.0 i.git99.com
 0.0.0.0 igofun.mobi
 0.0.0.0 i.higgsradio.com
-0.0.0.0 i.ibb.co
 0.0.0.0 i.jpallnight.com
 0.0.0.0 i.kissmetrics.com
 0.0.0.0 i.l-new.inmobicdn.net
