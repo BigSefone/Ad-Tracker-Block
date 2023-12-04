@@ -2,6 +2,9 @@
 # Name: BaDomain (Modified)
 #
 
+127.0.0.1  localhost
+::1  localhost
+
 0.0.0.0 05b698e1e24064861d8e9abc365ca6a4.safeframe.googlesyndication.com
 0.0.0.0 05efspdbawfc.puscomosca.com
 0.0.0.0 0kczn7.l0fwny.com
