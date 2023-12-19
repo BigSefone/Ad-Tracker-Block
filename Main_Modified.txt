@@ -11331,7 +11331,7 @@ _ads_$image,xhr
 /jump/next.php
 /identify.html
 */ip2geo/
-/ipAddress
+/ipAddress$3p
 /geoip.php$domain=~pornhat.com|~ok.xxx
 /click.json
 /track-view
