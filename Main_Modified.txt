@@ -10859,7 +10859,13 @@ http://twitcount.com$3p
 ||zxcvads.com^
 ||zzhengre.com^
 ||zzword.com^
+||analytics.kovah.de^
+||logs.netflix.com^
 
+||add0n.com/feedback.html$doc
+||webextension.org/feedback$doc
+||webextension.org/listing/*&type=install$doc
+||apps.jeurissen.co/*/installed$doc
 ||fastforward.team/firstrun$doc
 ||barisderin.com/?p=$doc
 ||cdn.jsdelivr.net/npm/devtools-detector$3p
