@@ -12204,6 +12204,7 @@ _right_ads.php
 _left_ads.php
 _statsonlineinfo
 
+hulu.com##[data-testid^="marquee-ad"]
 paypal.com###reactContainer__heroEngagement
 blockonomi.com##[href="/out/bc-game"]
 blockonomi.com##[href="/out/coinbase-earn"]
