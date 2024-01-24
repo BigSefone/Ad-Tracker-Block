@@ -11914,7 +11914,6 @@ ext.track.scripts*
 /pixels/storage/main/pixel.gif
 /removeAB.php
 /_ate.track.config_resp
-/search?vet
 /async/ecr?
 /fd/ls/lsp.aspx
 /fd/ls/ls.gif
