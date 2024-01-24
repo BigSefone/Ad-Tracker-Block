@@ -2,7 +2,7 @@
 ! Title: NyeUsr's Main Blacklist (Modified)
 ! Description: An adblock list which blocks ads, trackers, malware, fake sites, and other online annoyances.
 ! Expires: 8 hours
-! Version: 113N-1563
+! Version: 116N-1563
 
 ! Resources to help you better understand filter lists --------------
 ! Ublock Origin Static Filter Syntax                                |
