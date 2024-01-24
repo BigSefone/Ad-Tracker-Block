@@ -12467,6 +12467,12 @@ youtube.com##.ytd-video-masthead-ad-v3-renderer
 youtube.com##ytd-compact-promoted-video-renderer.ytd-item-section-renderer.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope > .ytd-rich-section-renderer.style-scope
 
+##[src*="a.adtng.com/"]:not(html, body, button, input)
+##[src*="adv.mxmcdn.net/"]:not(html, body, button, input)
+##[src^="https://chaturbate.com/in/?tour="]:not(html, body, button, input)
+##[href*="claring-loccelkin.com"]:not(html, body, button, input)
+##[href^="https://s.zlinkb.com/d.php"]:not(html, body, button, input)
+##.cams-videos.related-videos:not(html, body, button, input)
 ###WIX_ADS, .WIX_ADS:not(html, body, button, input)
 ###FreeStarVideoAdContainer:not(html, body, button, input)
 ##[class*="AdContainer_"]:not(html, body, button, input)
@@ -13218,6 +13224,35 @@ youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope > .ytd
 ~ads.$rewrite=abp-resource:blank-js
 
 ! Removeparam (AdGuard & uBlock Origin)
+$removeparam=clickId
+$removeparam=adId
+$removeparam=partnerId
+$removeparam=partnerName
+$removeparam=partnerType
+$removeparam=adTarget
+$removeparam=adDepartment
+$removeparam=clickHeader_productLocation
+$removeparam=clickHeader_productPosition
+$removeparam=clickHeader_pageNumber
+$removeparam=header_pageViewId
+$removeparam=product_impression_id
+$removeparam=impression_id
+$removeparam=trk_vertical
+$removeparam=trk_topic
+$removeparam=trk_sectionCategory
+$removeparam=trk_pagetype
+$removeparam=trk_nldt
+$removeparam=trk_location
+$removeparam=trk_element
+$removeparam=trk_channel
+$removeparam=sku_impression_id
+$removeparam=impression_section
+$removeparam=impression_position
+$removeparam=impression_pageview_id
+$removeparam=impression_page_url
+$removeparam=impression_page_name
+$removeparam=adName
+$removeparam=irclickid
 $removeparam=/^(u|m)tm_*/
 $removeparam=/^guce_referrer(_.+)?/
 $removeparam=/^uclick(.+)?/
@@ -13349,6 +13384,14 @@ $removeparam=cjevent
 $removeparam=c3nid
 $removeparam=y_source
 $removeparam=otppartnerid
+nerdwallet.com$removeparam=mvt
+nerdwallet.com$removeparam=link_type
+nerdwallet.com$removeparam=external_application
+nerdwallet.com$removeparam=calling_deployable_name
+apps.apple.com$removeparam=mt
+apps.apple.com$removeparam=ct
+apps.apple.com$removeparam=pt
+play.google.com$removeparam=referrer
 search.brave.com$removeparam=source
 tradedoubler.com$removeparam=tduid
 adguard-dns.io$removeparam=clid
