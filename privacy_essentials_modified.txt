@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials (Modified)
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Version: 25 November 2023
+! Version: 27 January 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
