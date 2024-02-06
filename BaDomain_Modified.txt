@@ -6709,7 +6709,7 @@
 0.0.0.0 lgglobal.ihago.net
 0.0.0.0 log.mediation.onebooster.me
 0.0.0.0 mobshark.net
-0.0.0.0 ms4.applvn.com                                #check
+0.0.0.0 ms4.applvn.com
 0.0.0.0 o17124.ingest.sentry.io
 0.0.0.0 o-static.ihago.net
 0.0.0.0 pfew.nl
