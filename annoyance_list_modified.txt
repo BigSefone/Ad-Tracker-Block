@@ -1094,6 +1094,7 @@ zdnet.com##p strong:has-text(/^Also/):upward(p)
 
 ! adult_annoyance_list.txt
 ! Network Requests
+||yeswegays.com^$badfilter
 ||bonertraffic.mobi^$3p
 ||cc.boyfriendtv.com/bftv/*.jpg$image
 ||cc.boyfriendtv.com/bftv/b/img/*.jpg$image
