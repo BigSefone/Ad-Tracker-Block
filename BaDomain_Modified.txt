@@ -2491,7 +2491,6 @@
 0.0.0.0 ibet789.com
 0.0.0.0 ibikini.cyou
 0.0.0.0 ib.isappcloud.com
-0.0.0.0 ibispaint.com
 0.0.0.0 ibnads.xl.co.id
 0.0.0.0 i.bosboslink.net
 0.0.0.0 ibuhaughuss.com
@@ -6683,3 +6682,8 @@
 0.0.0.0 tools.adskeeper.com
 0.0.0.0 unibotscdn.com
 0.0.0.0 www.adskeeper.com
+0.0.0.0 a.rfihub.com
+0.0.0.0 filerep-replica.ff.avast.com
+0.0.0.0 mobile.yandexadexchange.net
+0.0.0.0 sg01.dspunion.com
+0.0.0.0 xofes.com
