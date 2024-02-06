@@ -106,9 +106,9 @@ $ping
 ||dmgmediaprivacy.co.uk^$3p
 ||donorbox.org^$3p
 ||dowjoneson.com^$3p
-||dropbox-dns.com$domain=~dropbox.com
-||dropbox.com$domain=~dropbox.com
-||dropboxusercontent.com$domain=~dropbox.com
+||dropbox-dns.com$domain=~dropbox.com|~dropbox-dns.com
+||dropbox.com$domain=~dropbox.com|~dropbox-dns.com
+||dropboxusercontent.com$domain=~dropbox.com|~dropbox-dns.com
 ||drtuber.desi^$3p
 ||duckduckgo.com^$3p,domain=~duckduckgo.com|~spreadprivacy.com
 ||eagleapi.io^
