@@ -60,7 +60,7 @@ http://*^$third-party
 @@||*^$xmlhttprequest,domain=reddit.com
 @@||*.*$xmlhttprequest,domain=reddit.com
 ------------------------------------------------------------------------------------
-uBlock My filters rules
+uBlock Origin My filters rules
 
 *.*onion*
 youtube.com##+js(nano-stb, resolve(1), *, 0.001)
