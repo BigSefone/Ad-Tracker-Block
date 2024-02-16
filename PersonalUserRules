@@ -1,64 +1,61 @@
 ! Title: Sefone's Personal AdGuard User rules
 
-@@||*.*$xmlhttprequest,domain=reddit.com
-@@||*^$xmlhttprequest,domain=reddit.com
-@@||*$xmlhttprequest,domain=reddit.com
-@@*$xmlhttprequest,domain=reddit.com
-@@||*.*$xmlhttprequest,domain=google.com
-@@||*^$xmlhttprequest,domain=google.com
-@@||*$xmlhttprequest,domain=google.com
-@@*$xmlhttprequest,domain=google.com
-@@||*.*$xmlhttprequest,domain=youtube.com
-@@||*^$xmlhttprequest,domain=youtube.com
-@@||*$xmlhttprequest,domain=youtube.com
-@@*$xmlhttprequest,domain=youtube.com
-||*.*$xmlhttprequest
-||*^$xmlhttprequest
-||*$xmlhttprequest
-*$xmlhttprequest
-||*.*$websocket
-||*^$websocket
-||*$websocket
-*$websocket
-||*.*$object
-||*^$object
-||*$object
-*$object
-||*.*$ping
-||*^$ping
-||*$ping
-*$ping
-*##+js(nosiif)
-##+js(nosiif)
-*##+js(nostif)
-##+js(nostif)
-*##+js(noeval)
-##+js(noeval)
-http://*^$third-party
-||*.*$subdocument,third-party
-||*^$subdocument,third-party
-||*$subdocument,third-party
-*$subdocument,third-party
-*.*ico*
-*favicon*
-*x-icon*
-*image/x-icon*
-*wpad*
-*.*onion*
-||*.*$font
-||*^$font
-||*$font
-*$font
-##+js('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
-##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62)
-*##+js('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
-*##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62)
-youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
-||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
-www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_pl_r_si_fa, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_pl_r_si_fa, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_pl_r_si_fa, false)
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+*##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62)
+*##+js('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
+##+js(no-setTimeout-if, \x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62)
+##+js('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
+*wpad*
+*$subdocument,third-party
+||*$subdocument,third-party
+||*^$subdocument,third-party
+||*.*$subdocument,third-party
+http://*^$third-party
+##+js(noeval)
+*##+js(noeval)
+##+js(nostif)
+*##+js(nostif)
+##+js(nosiif)
+*##+js(nosiif)
+*$ping
+||*$ping
+||*^$ping
+||*.*$ping
+*$websocket
+||*$websocket
+||*^$websocket
+||*.*$websocket
+*$xmlhttprequest
+||*$xmlhttprequest
+||*^$xmlhttprequest
+||*.*$xmlhttprequest
+*$object
+||*$object
+||*^$object
+||*.*$object
+*$other
+||*$other
+||*^$other
+||*.*$other
+@@*$xmlhttprequest,domain=youtube.com
+@@||*$xmlhttprequest,domain=youtube.com
+@@||*^$xmlhttprequest,domain=youtube.com
+@@||*.*$xmlhttprequest,domain=youtube.com
+@@*$xmlhttprequest,domain=google.com
+@@||*$xmlhttprequest,domain=google.com
+@@||*^$xmlhttprequest,domain=google.com
+@@||*.*$xmlhttprequest,domain=google.com
+@@*$xmlhttprequest,domain=reddit.com
+@@||*$xmlhttprequest,domain=reddit.com
+@@||*^$xmlhttprequest,domain=reddit.com
+@@||*.*$xmlhttprequest,domain=reddit.com
