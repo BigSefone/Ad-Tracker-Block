@@ -14,3 +14,26 @@ https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
 https://raw.githubusercontent.com/yokoffing/filterlists/main/adult_annoyance_list.txt
 https://raw.githubusercontent.com/yokoffing/filterlists/main/clean_reading_experience.txt
 https://raw.githubusercontent.com/NyeUsr/Blacklist/main/Specific/AdGuard
+
+HaGeZi’s Combined DNS Blocklist
+
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/hoster.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt
+
+Regex list sources
+
+https://raw.githubusercontent.com/AdroitAdorKhan/dnsServerLists/main/list.txt
+https://raw.githubusercontent.com/JuanRodenas/Pihole_list/main/Listas/blocklist.txt
+https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/regex.txt
+https://raw.githubusercontent.com/CipherOps/PiholePerfectBlocking/main/REGEX.txt
+https://github.com/easylist/easylist/issues/6476
+https://www.reddit.com/r/pihole/comments/awvk13/can_anyone_recommend_some_good_regex_filters/
+https://raw.githubusercontent.com/ftpmorph/ftprivacy/master/regex-blocklists/smartphone-and-general-ads-analytics-regex-blocklist-ftprivacy.txt
+https://raw.githubusercontent.com/xlimit91/xlimit91-block-list/master/regex.list
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile_regex.txt
+https://raw.githubusercontent.com/anthony-wang/PiHoleBlocklist/master/regex.list
+https://raw.githubusercontent.com/PebbleOG/pihole-regex/master/regex.list
+https://discourse.pi-hole.net/t/regex-liste/24080
+https://raw.githubusercontent.com/CyberAndi/CyberSecurity-Box/CyberAndi-Pi-Hole-5/regex.list
+https://raw.githubusercontent.com/CyberAndi/CyberSecurity-Box/CyberAndi-Pi-Hole-5/regex_porn_ad.txt
