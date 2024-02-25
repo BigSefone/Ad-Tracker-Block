@@ -150,3 +150,11 @@ youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 ! {@3} Hijack using advanced functions
 *##+js(acs, eval, ignielAdBlock)
 *##+js(abort-current-script, adver)
+------------------------------------------------------------------------------------
+1Blocker Custom rules
+
+Block Third-Party Cookies
+Block Fonts
+Block .onion
+Block Third-Party Scripts
+And Others.
