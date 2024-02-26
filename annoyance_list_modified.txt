@@ -2,7 +2,7 @@
 ! Title: 🛠️ yokoffing's Annoyance List (Modified)
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Expires: 4 days (update frequency)
-! Version: 26 January 2024b
+! Version: 20 February 2024
 ! Syntax: AdBlock
 
 dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
