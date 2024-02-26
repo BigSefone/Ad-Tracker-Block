@@ -5,6 +5,8 @@
 ! Version: 26 January 2024b
 ! Syntax: AdBlock
 
+dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
+pymnts.com##.adContainer, .pymnt_ads, .recommended-articles
 tcgplayer.com##.promo-banner.delay-wrapper
 ign.com##.article-page > section.jsx-537794787
 spirehealthcare.com##.call-to-action--floatingButton
@@ -1007,6 +1009,12 @@ fandom.com##.wds-global-footer__main
 ! "To our Readers" note
 ! https://www.reddit.com/r/uBlockOrigin/comments/wpwuqu/how_can_i_hide_this_on_nyt_page/
 nytimes.com##.css-brw7hw, div[aria-labelledby="editorial-sub-messaging-header"]
+
+!!! WCO Fun streaming
+wcofun.net##.share-button
+wcofun.net##.jcarousel-wrapper
+wcofun.net##.episode-descp
+||www.wcostream.org/$image
 
 ! cig sites
 ##.col.cmp-footer__warnings
