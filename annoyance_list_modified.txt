@@ -1139,10 +1139,9 @@ zdnet.com##p strong:has-text(/^Also/):upward(p)
 ##.livecams
 ###list_videos_related_videos
 ##.related-content
-! Easylist rule causes video player to be too large
-manporn.xxx#@#.adv-sidebar
 
 ! Cosmetic filters
+xvideos.com##.premium-results-line
 gaytxxx.com##.undp--karp.undp
 youporn.com##.buttonsList.pornstarRow
 xhamster.com##.horizontal.as-width-wrap.no-update.yld-pccams-wgt
