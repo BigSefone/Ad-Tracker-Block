@@ -1190,6 +1190,7 @@ zdnet.com##p strong:has-text(/^Also/):upward(p)
 ##.related-content
 
 ! Cosmetic filters
+promo/banners$domain=www.nuvid.com,image
 xvideos.com##.premium-results-line
 gaytxxx.com##.undp--karp.undp
 youporn.com##.buttonsList.pornstarRow
