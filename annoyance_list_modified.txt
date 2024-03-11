@@ -2,7 +2,7 @@
 ! Title: 🛠️ yokoffing's Annoyance List (Modified)
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Expires: 4 days (update frequency)
-! Version: 20 February 2024
+! Version: 10 March 2024b
 ! Syntax: AdBlock
 
 dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
@@ -121,7 +121,6 @@ bestbuy.com##.shopping-assistant-accordion.c-accordion
 biblegateway.com##.sys-announce-content, .flex-1.resources
 bigtechbank.com###sidebar > .LinkList.widget, .PopularPosts.widget, .post-footer, .comments-system-blogger.litespot-pro-blog-post-comments
 billboard.com##.trending-stories-widget, .injected-related-story
-bing.com##.rebateGlobalDecoration, .secure_icon
 biography.com##.l-person--header.m-person--header.l-wrap > .m-person--social-links.m-social, .mm-component-stack--is-body-item.h-isolated-styles.m-detail--in-content-recommendation.m-in-content-recommendation, .l-person--social.m-person--social
 bitcoinist.com##div.related-reading-shortcode > strong, div.related-reading-shortcode:nth-of-type(2), div.related-reading-shortcode:nth-of-type(5)
 bitcoinist.com##em > strong
@@ -184,7 +183,7 @@ cointelegraph.com##.post-content__accent_big.post-content__accent
 cointelegraph.com###article-72206 > .post__content-wrapper > .post-content > .post-content__disclaimer, .c-2H4MkO3QiqFhqPIp8qO.container, .post__block_tags.post__block.tags-list, .post-content__disclaimer, .post-page__youtube-block, .related-list, .sidebar, .stretch-banner-youtube
 collider.com###secondary, .related-single, .next-single, .next-btn.sentinel-article-nextArticle, .w-article-related
 comedyshow.to##+js(acis, JSON.parse, break;case $.)
-comicbook.com##.js-activateComments.mid-content-comment
+comicbook.com##.js-activateComments.mid-content-comment, .related-stories
 commondreams.org##.d-print-none.position-relative, .d-print-none.py-5.bg-white, .embedded-entity, .headline--full.headline.node > div > .d-print-none, .py-5.bg-light.block
 computerverge.com##.is-alreay-loaded.is-fixed.is-sticky.normal-side.tie-col-xs-12.tie-col-md-4.sidebar > .theiaStickySidebar
 connectthewatts.com##.is-resized.size-large.aligncenter, .is-resized.size-full.aligncenter
@@ -990,6 +989,51 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[
 ! https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
 twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
 
+! BING
+! Hide rebate
+bing.com##.rebateGlobalDecoration
+!bing.com##.secure_icon
+
+! Credit: https://github.com/letsblockit/letsblockit/issues/642
+
+! Hide Copilot in the menu
+! Copilot icon next to the search box
+bing.com##.b_phead_chat_link
+! "Chat" label in the menu
+bing.com###b-scopeListItem-conv
+
+! Hide Copilot in the search box and page numbers
+! Search box copilot
+bing.com##.bordertop
+! Page numbers copilot
+bing.com##.b_pag_lets_chat
+
+! Hide related and recommended content
+! Most of "explore", "people also", "related search" sections and side panel
+bing.com###b_context
+bing.com###b_pole
+bing.com##.b_ans
+! Recommended section in the search box. Requires style fix to prevent expanding of the search box
+bing.com##.rs_drw
+bing.com###sa_requery
+! Related to recent searches in the search box
+bing.com###sa_zis_SSE
+! "Explore further" section
+bing.com##.scs_child_rpr
+! "Tags"
+bing.com##.batg
+! Side links widget
+bing.com###wikiWidgetContainer
+
+! Hide Jump to search icon
+bing.com###mfa_root
+
+! Hide quick highlight icons
+bing.com##.scs_icn
+
+! Hide "Rewards" alert
+bing.com###id_mobbubpos
+
 ! Linkedin
 ! Suggested Posts
 ! https://www.reddit.com/r/uBlockOrigin/comments/17yr4s5/blocking_linkedin_suggested_posts/
@@ -1028,6 +1072,11 @@ unsplash.com##img[src^="https://plus.unsplash.com/"]:upward(figure)
 ! Junk university sites
 ||takemyproctoringexam.com^
 ||onlineclasshero.com^
+
+! Mangapill
+! closed without explaination:
+! https://github.com/easylist/easylist/issues/16124
+mangapill.com##.mb-3.container > .justify-between.items-center.flex, div.container > .justify-between.items-center.flex
 
 !#if ext_ublock
 ! from https://github.com/Yuki2718/adblock2/blob/main/japanese/jpfp-ub.txt
