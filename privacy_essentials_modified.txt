@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials (Modified)
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Version: 27 January 2024
+! Version: 5 March 2024b
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -74,12 +74,14 @@ $ping
 ||capturehighered.net^$3p
 ||cbox.ws^$3p
 ||cbsinteractive.com^$domain=~etonline.com
+||cdn.privacy.paramount.com^$3p
 ||cdn.ravenjs.com^$3p,script
 ||channelsight.com^$xhr
 ||chatango.com^$3p
 ||chatbro.com^$3p
 ||chimpstatic.com^$3p
 ||christianbook.com^$3p
+||cigevo.uno^$3p
 ||cleantalk.org^
 ||cloudinary.com^$3p,~image
 ||cnstrc.com^
@@ -331,6 +333,15 @@ fmovies.*##+js(nosiif, try)
 ||twitcount.com^$3p
 ||launchpotato.com^$3p
 ||doctify.com^$3p
+||minmaxify.com^$3p
+||pwztag.com^$3p
+||beacon.kendall.ai^$3p
+||orderdeadline.com^$3p
+||soundestlink.com^$3p
+||thimatic-apps.com^$3p
+||revenuehunt.com^$3p
+||omnisnippet1.com$3p
+||freegifts.io^$3p
 
 ! GOOGLE
 ||accounts.google.com^$3p,domain=~youtube.com
