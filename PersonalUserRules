@@ -1,5 +1,7 @@
 ! Title: Sefone's Personal AdGuard User rules
 
+www.youtube.com##.sparkles-light-cta.ytd-in-feed-ad-layout-renderer.style-scope
+youtube.com##.sparkles-light-cta.ytd-in-feed-ad-layout-renderer.style-scope
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.enable_pl_r_si_fa, false)
