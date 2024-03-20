@@ -93,7 +93,7 @@ Blocklist:
 https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/CurrentRegexFilter
 
 Allowlist:
-apple.dns.nextdns.io
+nextdns.io
 myaccount.google.com
 static-cdn.jtvnw.net
 easylist-downloads.adblockplus.org
