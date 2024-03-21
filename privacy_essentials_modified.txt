@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials (Modified)
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Version: 5 March 2024b
+! Version: 16 March 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -110,7 +110,7 @@ $ping
 ||dowjoneson.com^$3p
 ||dropbox-dns.com$domain=~dropbox.com|~dropbox-dns.com
 ||dropbox.com$domain=~dropbox.com|~dropbox-dns.com
-||dropboxusercontent.com$domain=~dropbox.com|~dropbox-dns.com
+! ||dropboxusercontent.com$domain=~dropbox.com|~dropbox-dns.com|~uniquestream.net
 ||drtuber.desi^$3p
 ||duckduckgo.com^$3p,domain=~duckduckgo.com|~spreadprivacy.com
 ||eagleapi.io^
@@ -342,6 +342,14 @@ fmovies.*##+js(nosiif, try)
 ||revenuehunt.com^$3p
 ||omnisnippet1.com$3p
 ||freegifts.io^$3p
+! https://www.vitalydesign.com/pages/contact-us
+||ip-api.com^$3p
+||marker.io^$3p
+||shoplift.ai$3p
+! Shopify
+||juniphq.com^$3p
+||postscript.io^$3p
+||shoplift.ai$3p
 
 ! GOOGLE
 ||accounts.google.com^$3p,domain=~youtube.com
