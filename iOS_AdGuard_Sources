@@ -82,7 +82,6 @@ mail.google.com
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Network Filters:
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/BaDomain_Modified.txt
 https://raw.githubusercontent.com/JuanRodenas/Pihole_list/main/Listas/blocklist.txt
 https://realityripple.com/Tools/AdBlock++/rule.php?id=1346546242
 https://raw.githubusercontent.com/marcusminus/Orthrus-BlockList/master/blocklist.txt
