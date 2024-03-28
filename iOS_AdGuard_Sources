@@ -1,84 +1,7 @@
 AdGuard Sources
 
-Safari Filters:
-https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt
-https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt
-https://raw.githubusercontent.com/igorskyflyer/ad-void/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ExtremelyCondensedList.txt
-https://www.dl.dropboxusercontent.com/s/v1hdmolkekzevhl/Wildcards.txt
-https://raw.githubusercontent.com/igorskyflyer/ad-void/main/add-ons/AdVoid.Addon.NoExtras.txt
-https://raw.githubusercontent.com/LennyFox/Blocklists/master/videos.txt
-https://malware-filter.gitlab.io/malware-filter/tracking-filter.txt
-https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/youtube_wo_tonikaku_filter.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/SocialShareList.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AdRemovalListForUnusualAds.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiFunctionalityRemovalList.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/EmptyPaddingRemover.txt
-https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
-github igorskyflyer
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 Current Safari Filters:
-https://raw.githubusercontent.com/igorskyflyer/ad-void/main/AdVoid.Full.txt
 https://raw.githubusercontent.com/igorskyflyer/ad-void/main/scriptlets/AdVoid.Scriptlets.AntiAntiAdBlock.txt
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/privacy_essentials_modified.txt
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/privacy_extended_modified.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AdRemovalListForUnusualAds.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/SocialShareList.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/Main_Modified.txt
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/annoyance_list_modified.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiFunctionalityRemovalList.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/EmptyPaddingRemover.txt
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/Columbia_modified.txt
-https://raw.githubusercontent.com/Deci8BelioS/Filtros-anuncios-de-Espana-y-mas/main/filtro.txt
-https://raw.githubusercontent.com/Zalexanninev15/NoADS_RU/main/ads_list_extended.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
-https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt
-https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/lunar-blocklist-modified.txt
-https://raw.githubusercontent.com/Iz-zzzzz/IzFilter-Public/main/Iz's%20Addon%20Filter%20Public%20Github.txt
-https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/anti-visit.txt
-https://raw.githubusercontent.com/sudotman/indianadblock/master/indiablock.txt
-https://raw.githubusercontent.com/Nomes77/AdBlockFilters/main/EasyDutch.all.txt Or https://cdn.jsdelivr.net/gh/EasyDutch-uBO/EasyDutch@gh-pages/EasyDutch.all.txt
-https://www.dl.dropboxusercontent.com/s/v1hdmolkekzevhl/Wildcards.txt
-https://easylist-downloads.adblockplus.org/adblock_premium.txt
-https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
-https://raw.githubusercontent.com/AdGuardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
-https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-https://raw.githubusercontent.com/AdGuardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
-https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt
-https://raw.githubusercontent.com/LanikSJ/webannoyances/master/ultralist.txt
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/ExtremelyCondensedListModified.txt
-https://raw.githubusercontent.com/Kees1958/W3C_annual_most_used_survey_blocklist/master/addendum_to_Edge_Firefox_build_in.txt
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/AdGuardModified
-https://raw.githubusercontent.com/Kees1958/W3C_annual_most_used_survey_blocklist/master/EU_US_MV3_most_common_ad%2Btracking_networks.txt
-https://raw.githubusercontent.com/KokichaKolevTM/BG-Adblock-list/main/BG-Adblock-list.txt
-https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/MiscAnnoyance.txt
-https://raw.githubusercontent.com/hungphambkc/FAFD/main/FAFD.txt
-https://raw.githubusercontent.com/lazywasabi/filterlist/main/filter.txt
-https://raw.githubusercontent.com/Earthworm-Banana/adblock-filter/main/all.txt
-https://raw.githubusercontent.com/Chromo-lib/netfilter/master/_filters/regexFilter_firstParty/1.txt
-https://raw.githubusercontent.com/Chromo-lib/netfilter/master/_filters/regexFilter_thirdParty/1.txt
-https://raw.mlsub.net/AndyH0ng/STFU/main/basic.txt
-https://raw.mlsub.net/AndyH0ng/STFU/main/cookie.txt
-https://raw.mlsub.net/AndyH0ng/STFU/main/dns-pico.txt
-https://raw.mlsub.net/AndyH0ng/STFU/main/dns.txt
-https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpf-plus.txt
-https://raw.githubusercontent.com/Yuki2718/adblock2/main/japanese/jpfp-ag.txt
-https://gist.githubusercontent.com/oxguy3/dda7958f7da766eed9fa/raw/7e1f36c514e097b32dd7d782d597d003854fa85a/filters.txt
-https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt
-https://raw.githubusercontent.com/RedDragonWebDesign/block-everything/master/block-everything.txt
-https://raw.githubusercontent.com/serhiyguryev/ukrainian-filters/main/filters/ads.txt
-https://raw.githubusercontent.com/serhiyguryev/ukrainian-filters/main/filters/privacy.txt
-https://raw.githubusercontent.com/serhiyguryev/ukrainian-filters/main/filters/annoyances.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt
-https://www.jabcreations.com/downloads/adblock-filters.php
-https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
-https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt
-https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
-https://raw.githubusercontent.com/nicedirector/ADBlock/master/Adblock_Filter.txt
 https://malware-filter.gitlab.io/malware-filter/tracking-filter.txt
 
 User rules:
@@ -92,11 +15,7 @@ mail.google.com
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Network Filters:
-https://raw.githubusercontent.com/JuanRodenas/Pihole_list/main/Listas/blocklist.txt
 https://realityripple.com/Tools/AdBlock++/rule.php?id=1346546242
-https://raw.githubusercontent.com/marcusminus/Orthrus-BlockList/master/blocklist.txt
-https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/blocklist
-https://raw.githubusercontent.com/blocklistproject/Lists/master/basic.txt
 
 Blocklist:
 https://raw.githubusercontent.com/BigSefone/Ad-Tracker-Block/main/CurrentRegexFilter
@@ -105,7 +24,6 @@ Allowlist:
 nextdns.io
 myaccount.google.com
 static-cdn.jtvnw.net
-easylist-downloads.adblockplus.org
 filters.adtidy.org
 static.ess.apple.com
 www.redditstatic.com
